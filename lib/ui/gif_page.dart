@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:share/share.dart';
 
+/* Essa tela se trata de um statelessWidget, pois serve somente para
+ * exibir o GIF selecionado na tela anterior. Não tem ação nenhuma.
+ */
 class GifPage extends StatelessWidget {
 
   final Map _gifData;
 
-  // Construtor da classe, que receberá um dado:
+  // Construtor da classe, que receberá os dados:
   GifPage(this._gifData);
 
   @override
